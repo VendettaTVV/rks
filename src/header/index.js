@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logorks from '../download.svg';
+import map_icon from '../download1.svg';
 
 function HeaderComponent() {
     return (
@@ -40,6 +41,27 @@ function HeaderComponent() {
                             <NavDropdown.Item href="#action/3.3">Tyre fitting</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
+                    <Nav>
+                    <NavDropdown
+                            id="nav-language"
+                            title="Languages"
+                            menuVariant="dark"
+                        >
+                            <NavDropdown.Item href="#action/3.1">English</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.2">Eesti</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.3">Русский</NavDropdown.Item>
+                        </NavDropdown>
+            <Nav.Link eventKey={2} href="#memes">
+            <img
+                            src={map_icon}
+                            width="30"
+                            height="30"
+                            className="d-inline-block align-top"
+                            alt="map"
+                        />{' '}
+              Find Us
+            </Nav.Link>
+          </Nav>
                 </Container>
             </Navbar>
 
