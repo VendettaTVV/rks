@@ -51,12 +51,12 @@ function HeaderComponent() {
                             <NavDropdown.Item href="#action/3.2">Eesti</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.3">Русский</NavDropdown.Item>
                         </NavDropdown>
-            <Nav.Link eventKey={2} href="#memes">
+            <Nav.Link target='_blank' href="https://www.google.com/maps/place/1.+Paemurru+1,+20205+Narva/@59.3713484,28.171914,17z/data=!3m1!4b1!4m6!3m5!1s0x46944822ade5894d:0xa1b40b986feb5ea6!8m2!3d59.3713457!4d28.1744889!16s%2Fg%2F11c20v0hcy?hl=RU">
             <img
                             src={map_icon}
                             width="30"
                             height="30"
-                            className="d-inline-block align-top"
+                            className="d-inline-block align-top "
                             alt="map"
                         />{' '}
               Find Us
