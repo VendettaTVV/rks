@@ -4,6 +4,9 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logorks from '../download.svg';
 import map_icon from '../download1.svg';
+import ukFlag from '../u_k_flag.ico'
+import estFlag from '../estonia_flag.ico'
+import ruFlag from '../flag.ico'
 
 function HeaderComponent() {
     return (
@@ -22,8 +25,6 @@ function HeaderComponent() {
                     </Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#features">Our works</Nav.Link>
-                        <Nav.Link href="#pricing">About us</Nav.Link>
                         <NavDropdown
                             id="nav-dropdown-dark-example"
                             title="Services"
@@ -40,28 +41,59 @@ function HeaderComponent() {
                             <NavDropdown.Item href="#action/3.3">Restoration of body geometry</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.3">Tyre fitting</NavDropdown.Item>
                         </NavDropdown>
+                        <Nav.Link href="#features">Our works</Nav.Link>
+                        <Nav.Link href="#pricing">About us</Nav.Link>
+                        <Nav.Link href="#pricing">Contact</Nav.Link>
+
                     </Nav>
                     <Nav>
-                    <NavDropdown
+                        <NavDropdown
                             id="nav-language"
                             title="Languages"
                             menuVariant="dark"
                         >
-                            <NavDropdown.Item href="#action/3.1">English</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Eesti</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Русский</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.1">
+                                <img
+                                    src={ukFlag}
+                                    width="23"
+                                    height="23"
+                                    className="d-inline-block align-top "
+                                    alt="map"
+                                />{' '}
+                                English
+                            </NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.2">
+                                <img
+                                    src={estFlag}
+                                    width="23"
+                                    height="23"
+                                    className="d-inline-block align-top "
+                                    alt="map"
+                                />{' '}
+                                Eesti
+                            </NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.3">
+                                <img
+                                    src={ruFlag}
+                                    width="23"
+                                    height="23"
+                                    className="d-inline-block align-top "
+                                    alt="map"
+                                />{' '}
+                                Русский
+                            </NavDropdown.Item>
                         </NavDropdown>
-            <Nav.Link target='_blank' href="https://www.google.com/maps/place/1.+Paemurru+1,+20205+Narva/@59.3713484,28.171914,17z/data=!3m1!4b1!4m6!3m5!1s0x46944822ade5894d:0xa1b40b986feb5ea6!8m2!3d59.3713457!4d28.1744889!16s%2Fg%2F11c20v0hcy?hl=RU">
-            <img
-                            src={map_icon}
-                            width="30"
-                            height="30"
-                            className="d-inline-block align-top "
-                            alt="map"
-                        />{' '}
-              Find Us
-            </Nav.Link>
-          </Nav>
+                        <Nav.Link target='_blank' href="https://www.google.com/maps/place/RKS+Ltd/@59.3713457,28.1744889,17z/data=!3m1!4b1!4m6!3m5!1s0x469448178ef7e6cb:0xffb466f8bbf8f5a!8m2!3d59.3713457!4d28.1744889!16s%2Fg%2F1v7px3z6?hl=EN">
+                            <img
+                                src={map_icon}
+                                width="25"
+                                height="25"
+                                className="d-inline-block align-top "
+                                alt="map"
+                            />{' '}
+                            Find Us
+                        </Nav.Link>
+                    </Nav>
                 </Container>
             </Navbar>
 
