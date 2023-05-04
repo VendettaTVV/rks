@@ -19,7 +19,7 @@ function FooterComponent() {
                     </Navbar.Brand>
                         <Navbar.Text className="fw-bolder">Address: <br /> Paemurru 1<br /> 20205, Narva </Navbar.Text>
                         <Navbar.Text className="fw-bolder">Contact: <br /> Phone: +372 502 6143<br /> E-mail: info@rksauto.ee </Navbar.Text>
-                        <Navbar.Text className="fw-bolder">We are open: <br /> M-F. 9 - 19 <br /> Sat - Sun. Day off  </Navbar.Text>
+                        <Navbar.Text className="fw-bolder">We are open: <br /> M-F. 9 - 19 <br /> Sat. 9 - 12 <br/> Sun. Day off  </Navbar.Text>
                 </Container>
             </Navbar>
 

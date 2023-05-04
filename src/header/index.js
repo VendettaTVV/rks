@@ -7,6 +7,7 @@ import map_icon from '../download1.svg';
 import ukFlag from '../u_k_flag.ico'
 import estFlag from '../estonia_flag.ico'
 import ruFlag from '../flag.ico'
+import { Link } from 'react-router-dom';
 
 function HeaderComponent() {
     return (
@@ -24,27 +25,31 @@ function HeaderComponent() {
                         RKS
                     </Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <NavDropdown
-                            id="nav-dropdown-dark-example"
+                        <Link to="/" className="nav-link"> Home </Link >
+                        < NavDropdown
+                            id="nav-dropdown-dark"
                             title="Services"
                             menuVariant="dark"
                         >
-                            <NavDropdown.Item href="#action/3.1">Auto glass replacement</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Bodywork</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Paintwork</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Towing services</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Air conditioner filling</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Repair of plastic parts</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Custom auto parts</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Welding</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Restoration of body geometry</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Tyre fitting</NavDropdown.Item>
-                        </NavDropdown>
-                        <Nav.Link href="#features">Our works</Nav.Link>
-                        <Nav.Link href="#pricing">About us</Nav.Link>
-                        <Nav.Link href="#pricing">Contact</Nav.Link>
+                            <NavDropdown.Item>
+                                
+                            <Link to="/services/glass"/>
+                            Auto glass replacement 
+                            </NavDropdown.Item>
+                            <Link to="/services/bodywork" className="dropdown-item"> Bodywork </Link >
+                            <Link to="/services/paintwork" className="dropdown-item"> Paintwork </Link >
+                            <Link to="/services/towing" className="dropdown-item"> Towing services </Link >
+                            <Link to="/services/conditioner" className="dropdown-item"> Air conditioner filling </Link >
+                            <Link to="/services/plastic" className="dropdown-item"> Repair of plastic parts </Link >
+                            <Link to="/services/custom" className="dropdown-item"> Custom auto parts </Link >
+                            <Link to="/services/welding" className="dropdown-item"> Welding </Link >
+                            <Link to="/services/restoration" className="dropdown-item"> Restoration of body geometry </Link >
+                            <Link to="/services/tyre" className="dropdown-item"> Tyre fitting </Link >
 
+                        </NavDropdown>
+                        <Link to="/works" className="nav-link"> Our work </Link >
+                        <Link to="/about" className="nav-link"> About us </Link >
+                        <Link to="/contact" className="nav-link"> Contact </Link >
                     </Nav>
                     <Nav>
                         <NavDropdown
