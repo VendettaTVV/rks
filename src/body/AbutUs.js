@@ -1,18 +1,27 @@
 import Container from "react-bootstrap/esm/Container";
-import certificat1 from '../certificat1.jpg';
-import certificat2 from '../certificat2.jpg';
-import certificat3 from '../certificat3.jpg';
-import partn1 from '../partn1.jpg';
-import partn2 from '../partn2.png';
-import partn3 from '../partn3.png';
-import partn4 from '../partn4.png';
-import partn5 from '../partn5.png';
-import partn6 from '../partn6.png';
+import certificat1 from '../pictures/sertificat/certificat1.jpg';
+import certificat2 from '../pictures/sertificat/certificat2.jpg';
+import certificat3 from '../pictures/sertificat/certificat3.jpg';
+import partn1 from '../pictures/partners/partn1.jpg';
+import partn2 from '../pictures/partners/partn2.png';
+import partn3 from '../pictures/partners/partn3.png';
+import partn4 from '../pictures/partners/partn4.png';
+import partn5 from '../pictures/partners/partn5.png';
+import partn6 from '../pictures/partners/partn6.png';
+import partn7 from '../pictures/partners/partn7.png';
+import partn8 from '../pictures/partners/partn8.png';
+import partn9 from '../pictures/partners/partn9.png';
+import partn10 from '../pictures/partners/partn10.png';
+import partn11 from '../pictures/partners/partn11.png';
+import partn12 from '../pictures/partners/partn12.png';
+import partn13 from '../pictures/partners/partn13.png';
+import partn14 from '../pictures/partners/partn14.png';
+import partn15 from '../pictures/partners/partn15.png';
 
 
 function InfoComponent() {
     return (
-        <Container className='bg-light mt-0 mb-0'>
+        <Container className='bg-white mt-0 mb-0'>
             <Container className="mt-0 pt-5 d-flex justify-content-around">
             <img
                 src={certificat1}
@@ -50,7 +59,7 @@ function InfoComponent() {
                 the premises of the workshop.
             </p>
             <p className="fw-bolder pt-4 fs-4 font-family-sans-serif text-uppercase text-center">Our partners</p>
-            <Container className="mt-0 pt-3 d-flex justify-content-around">
+            <Container className="mt-0 pt-3 d-flex justify-content-around flex-wrap">
             <img
                 src={partn1}
                 width="150"
@@ -63,37 +72,104 @@ function InfoComponent() {
                 width="150"
                 height="150"
                 className='img-thumbnail'
-                alt='Certificat1'
+                alt='Certificat2'
             />
             <img
                 src={partn3}
                 width="150"
                 height="150"
                 className='img-thumbnail'
-                alt='Certificat1'
+                alt='Certificat3'
             />
             <img
                 src={partn4}
                 width="150"
                 height="150"
                 className='img-thumbnail'
-                alt='Certificat1'
+                alt='Certificat4'
             />
             <img
                 src={partn5}
                 width="150"
                 height="150"
                 className='img-thumbnail'
-                alt='Certificat1'
+                alt='Certificat5'
             />
             <img
                 src={partn6}
                 width="150"
                 height="150"
                 className='img-thumbnail'
-                alt='Certificat1'
+                alt='Certificat6'
             />
             </Container>
+            <Container className="mt-0 pt-3 d-flex justify-content-around flex-wrap">
+            <img
+                src={partn7}
+                width="130"
+                height="130"
+                className='img-thumbnail'
+                alt='Certificat7'
+            />
+            <img
+                src={partn8}
+                width="130"
+                height="130"
+                className='img-thumbnail'
+                alt='Certificat8'
+            />
+            <img
+                src={partn9}
+                width="130"
+                height="130"
+                className='img-thumbnail'
+                alt='Certificat9'
+            />
+            <img
+                src={partn10}
+                width="130"
+                height="130"
+                className='img-thumbnail'
+                alt='Certificat10'
+            />
+            <img
+                src={partn11}
+                width="130"
+                height="130"
+                className='img-thumbnail'
+                alt='Certificat11'
+            />
+            <img
+                src={partn12}
+                width="130"
+                height="130"
+                className='img-thumbnail'
+                alt='Certificat12'
+            />
+           </Container>
+           <Container className="mt-0 pt-3 pb-5 d-flex justify-content-around flex-wrap">
+           <img
+                src={partn13}
+                width="130"
+                height="130"
+                className='img-thumbnail'
+                alt='Certificat13'
+            />
+            <img
+                src={partn14}
+                width="130"
+                height="130"
+                className='img-thumbnail'
+                alt='Certificat14'
+            />
+            <img
+                src={partn15}
+                width="130"
+                height="130"
+                className='img-thumbnail'
+                alt='Certificat15'
+            />
+           </Container>
         </Container>
     )
 }

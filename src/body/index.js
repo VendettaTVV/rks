@@ -1,16 +1,17 @@
 
 import Carousel from 'react-bootstrap/Carousel';
-import carousel1 from '../carousel1.jpg';
-import carousel2 from '../carousel2.jpg';
-import carousel3 from '../carousel3.jpg';
 import Container from 'react-bootstrap/esm/Container';
+import carousel1 from '../pictures/carousel/carousel1.jpg';
+import carousel2 from '../pictures/carousel/carousel2.jpg';
+import carousel3 from '../pictures/carousel/carousel3.jpg';
+
 
 
 
 
 function BodyComponent() {
     return (
-        <Container className='bg-light mt-0 mb-0'>
+        <Container className='bg-white mt-0 mb-0'>
             <p className="text-center fw-bolder pt-5 fs-1 font-family-sans-serif "> Welcome to RKS OÜ, a car painting shop! </p>
             <Carousel className='mt-5'>
                 <Carousel.Item interval={5000}>

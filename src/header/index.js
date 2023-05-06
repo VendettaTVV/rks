@@ -2,12 +2,13 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import logorks from '../download.svg';
-import map_icon from '../download1.svg';
-import ukFlag from '../u_k_flag.ico'
-import estFlag from '../estonia_flag.ico'
-import ruFlag from '../flag.ico'
 import { Link } from 'react-router-dom';
+import logorks from '../pictures/download.svg';
+import map_icon from '../pictures/download1.svg';
+import ukFlag from '../pictures/language_icons/u_k_flag.ico';
+import estFlag from '../pictures/language_icons/estonia_flag.ico';
+import ruFlag from '../pictures/language_icons/flag.ico';
+
 
 function HeaderComponent() {
     return (
@@ -25,7 +26,7 @@ function HeaderComponent() {
                         RKS
                     </Navbar.Brand>
                     <Nav className="me-auto">
-                        <Link to="/" className="nav-link"> Home </Link >
+                        <Link to="/" className="nav-link "> Home </Link >
                         < NavDropdown
                             id="nav-dropdown-dark"
                             title="Services"
@@ -49,7 +50,7 @@ function HeaderComponent() {
                         </NavDropdown>
                         <Link to="/works" className="nav-link"> Our work </Link >
                         <Link to="/about" className="nav-link"> About us </Link >
-                        <Link to="/contact" className="nav-link"> Contact </Link >
+                        <Link to="/contact" className="nav-link"> Contacts </Link >
                     </Nav>
                     <Nav>
                         <NavDropdown

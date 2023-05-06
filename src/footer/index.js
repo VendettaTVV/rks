@@ -1,6 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-import logorksBlack from '../c-circle-w.svg';
+import logorksLight from '../pictures/c-circle-w.svg';
 
 function FooterComponent() {
     return (
@@ -9,7 +9,7 @@ function FooterComponent() {
                 <Container>
                     <Navbar.Brand  className='fs-6'>
                         <img
-                            src={logorksBlack}
+                            src={logorksLight}
                             width="21"
                             height="21"
                             className="d-inline-block align-top"
