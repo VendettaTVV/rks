@@ -16,6 +16,7 @@ import RestorationComponent from './body/Services/Restoration';
 import TyreComponent from './body/Services/Tyre';
 import WorkComponent from './body/Works';
 import InfoComponent from './body/AbutUs';
+import ServiceComponent from './body/Services';
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
         < Route path='/' element={
           <BodyComponent />
         } />
-        < Route path='/services/glass' element={
+        {/* < Route path='/services/glass' element={
           <GlassComponent />
         } />
         < Route path='/services/bodywork' element={
@@ -54,6 +55,9 @@ function App() {
         } />
         < Route path='/services/tyre' element={
           <TyreComponent />
+        } /> */}
+        < Route path='/services' element={
+          <ServiceComponent />
         } />
         < Route path='/works' element={
           <WorkComponent />

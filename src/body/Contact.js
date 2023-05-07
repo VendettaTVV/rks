@@ -2,10 +2,12 @@ import Container from "react-bootstrap/esm/Container";
 import ListGroup from 'react-bootstrap/ListGroup';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import Badge from 'react-bootstrap/Badge';
 import addressIcon from '../address_icon.png';
 import timeIcon from '../time_icon.png';
 import mailIcon from '../mail_icon.png';
 import phoneIcon from '../phone_icon.png';
+import phoneCallIcon from '../phone-call.svg';
 
 
 function ContactComponent() {
@@ -16,12 +18,12 @@ function ContactComponent() {
             <Container className=' d-flex justify-content-around flex-wrap mt-5'>
                 <Container className="w-50 ms-0">
                     <ListGroup variant="flush" className=" m-0 ">
-                        <ListGroup.Item className=" mb-3 mt-5">
+                        <ListGroup.Item className=" mb-3 mt-5 ">
                             <img
                                 src={addressIcon}
                                 width="40"
                                 height="40"
-                                className="d-inline-block "
+                                className="d-inline-block me-3 "
                                 alt="address"
                             />{' '}
                             Paemurru 1, 20205, Narva
@@ -31,35 +33,98 @@ function ContactComponent() {
                                 src={timeIcon}
                                 width="40"
                                 height="40"
-                                className="d-inline-block "
-                                alt="address"
+                                className="d-inline-block me-3"
+                                alt="time"
                             />{' '}
-                            M-F. 9 - 19 Sat. 9 - 12 Sun. Day off
+                            M-F: 9 - 19.  Sat: 9 - 12
                         </ListGroup.Item>
                         <ListGroup.Item className=" mb-3 mt-3">
-                        <img
-                                    src={mailIcon}
-                                    width="40"
-                                    height="40"
-                                    className="d-inline-block "
-                                    alt="address"
-                                />{' '}
+                            <img
+                                src={mailIcon}
+                                width="40"
+                                height="40"
+                                className="d-inline-block me-3"
+                                alt="mail"
+                            />{' '}
                             info@rksauto.ee
-                            </ListGroup.Item>
-                        <ListGroup.Item className=" mb-5 mt-3">
-                        <img
-                                    src={phoneIcon}
-                                    width="40"
-                                    height="40"
+                        </ListGroup.Item>
+                        <ListGroup.Item className=" mb-3 mt-3">
+                            <img
+                                src={phoneIcon}
+                                width="40"
+                                height="40"
+                                className="d-inline-block me-2"
+                                alt="phone"
+                            />{' '}
+                            Board member — Raivo   +372 50 26 143
+                            <Badge type='button' bg="light" text="dark" className="ms-3" >
+                                <img
+                                    src={phoneCallIcon}
+                                    width="15"
+                                    height="15"
                                     className="d-inline-block "
-                                    alt="address"
+                                    alt="callMe"
                                 />{' '}
-                            Райво — член правления, +372 50 26 143
-                            Николай — мастер кузовных работ, +372 52 19 339, Связаться
-                            Антон — мастер кузовных работ, +372 53 45 05 39, Связаться
-                            Максим — комплектовщик, установка стекол, +372 55 15 384, Связаться
-                            </ListGroup.Item>
-                        
+                                Call me</Badge>{' '}
+                        </ListGroup.Item>
+                        <ListGroup.Item className=" mb-3 mt-3">
+                            <img
+                                src={phoneIcon}
+                                width="40"
+                                height="40"
+                                className="d-inline-block me-2"
+                                alt="phone"
+                            />{' '}
+                            Bodywork master — Nikolai +372 52 19 339
+                            <Badge type='button' bg="light" text="dark" className="ms-3" >
+                                <img
+                                    src={phoneCallIcon}
+                                    width="15"
+                                    height="15"
+                                    className="d-inline-block "
+                                    alt="callMe"
+                                />{' '}
+                                Call me</Badge>{' '}
+                        </ListGroup.Item>
+                        <ListGroup.Item className=" mb-4 mt-3">
+                            <img
+                                src={phoneIcon}
+                                width="40"
+                                height="40"
+                                className="d-inline-block me-2"
+                                alt="phone"
+                            />{' '}
+                            Bodywork master — Anton +372 53 45 05 39
+                            <Badge type='button' bg="light" text="dark" className="ms-3" >
+                                <img
+                                    src={phoneCallIcon}
+                                    width="15"
+                                    height="15"
+                                    className="d-inline-block "
+                                    alt="callMe"
+                                />{' '}
+                                Call me</Badge>{' '}
+                        </ListGroup.Item>
+                        <ListGroup.Item className=" mb-5">
+                            <img
+                                src={phoneIcon}
+                                width="40"
+                                height="40"
+                                className="d-inline-block me-2"
+                                alt="phone"
+                            />{' '}
+                            Assembler, glass installation— Maksim  +372 55 15 384
+                            <Badge type='button' bg="light" text="dark" className="ms-3" >
+                                <img
+                                    src={phoneCallIcon}
+                                    width="15"
+                                    height="15"
+                                    className="d-inline-block "
+                                    alt="callMe"
+                                />{' '}
+                                Call me</Badge>{' '}
+                        </ListGroup.Item>
+
                     </ListGroup>
 
                 </Container>

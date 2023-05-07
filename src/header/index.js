@@ -27,15 +27,15 @@ function HeaderComponent() {
                     </Navbar.Brand>
                     <Nav className="me-auto">
                         <Link to="/" className="nav-link "> Home </Link >
-                        < NavDropdown
+                        {/* < NavDropdown
                             id="nav-dropdown-dark"
                             title="Services"
                             menuVariant="dark"
                         >
                             <NavDropdown.Item>
-                                
-                            <Link to="/services/glass"/>
-                            Auto glass replacement 
+
+                                <Link to="/services/glass" />
+                                Auto glass replacement
                             </NavDropdown.Item>
                             <Link to="/services/bodywork" className="dropdown-item"> Bodywork </Link >
                             <Link to="/services/paintwork" className="dropdown-item"> Paintwork </Link >
@@ -47,8 +47,8 @@ function HeaderComponent() {
                             <Link to="/services/restoration" className="dropdown-item"> Restoration of body geometry </Link >
                             <Link to="/services/tyre" className="dropdown-item"> Tyre fitting </Link >
 
-                        </NavDropdown>
-                        <Link to="/works" className="nav-link"> Our work </Link >
+                        </NavDropdown> */}
+                        <Link to="/services" className="nav-link"> Services </Link >
                         <Link to="/about" className="nav-link"> About us </Link >
                         <Link to="/contact" className="nav-link"> Contacts </Link >
                     </Nav>
