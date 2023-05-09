@@ -8,6 +8,7 @@ import map_icon from '../pictures/download1.svg';
 import ukFlag from '../pictures/language_icons/u_k_flag.ico';
 import estFlag from '../pictures/language_icons/estonia_flag.ico';
 import ruFlag from '../pictures/language_icons/flag.ico';
+import languageIcon from '../lang_icon.svg';
 
 
 function HeaderComponent() {
@@ -53,6 +54,13 @@ function HeaderComponent() {
                         <Link to="/contact" className="nav-link"> Contacts </Link >
                     </Nav>
                     <Nav>
+                    <img
+                                    src={languageIcon}
+                                    width="23"
+                                    height="23"
+                                    className="d-inline-block mt-2"
+                                    alt="map"
+                                />{' '}
                         <NavDropdown
                             id="nav-language"
                             title="Languages"

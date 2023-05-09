@@ -19,6 +19,7 @@ import partn14 from '../pictures/partners/partn14.png';
 import partn15 from '../pictures/partners/partn15.png';
 
 
+
 function InfoComponent() {
     return (
         <Container className='bg-white mt-0 mb-0'>

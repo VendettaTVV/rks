@@ -4,19 +4,9 @@ import BodyComponent from './body';
 import FooterComponent from './footer';
 import { Route, Routes } from 'react-router-dom';
 import ContactComponent from './body/Contact.js';
-import GlassComponent from './body/Services/AutoGlass';
-import BodyWorkComponent from './body/Services/Bodywork';
-import PaintComponent from './body/Services/Painwork';
-import TowingComponent from './body/Services/Towing';
-import ConditionComponent from './body/Services/Conditioner';
-import PlasticComponent from './body/Services/PlasticParts';
-import CustomComponent from './body/Services/Custom';
-import WeldingComponent from './body/Services/Welding';
-import RestorationComponent from './body/Services/Restoration';
-import TyreComponent from './body/Services/Tyre';
 import WorkComponent from './body/Works';
 import InfoComponent from './body/AbutUs';
-import ServiceComponent from './body/Services';
+import Features from './body/Services';
 
 function App() {
   return (
@@ -32,7 +22,7 @@ function App() {
         < Route path='/services/bodywork' element={
           <BodyWorkComponent />
         } />
-        < Route path='/services/paintwork' element={
+        < Route path='/services/paintwork' element={S
           <PaintComponent />
         } />
         < Route path='/services/towing' element={
@@ -57,7 +47,7 @@ function App() {
           <TyreComponent />
         } /> */}
         < Route path='/services' element={
-          <ServiceComponent />
+          <Features />
         } />
         < Route path='/works' element={
           <WorkComponent />
