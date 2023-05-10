@@ -12,7 +12,7 @@ export const Container = styled.div`
 `;
 
 export const Section = styled.section`
-	padding: ${({ padding }) => (padding ? padding : '100px 0')};
+	padding: ${({ padding }) => (padding ? padding : '80px 0')};
 	margin: ${({ margin }) => (margin ? margin : '')};
 	background: ${({ inverse }) => (inverse ? 'white' : '#071c2f')};
 	position: ${({ position }) => (position ? position : '')};
