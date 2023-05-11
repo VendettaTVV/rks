@@ -14,7 +14,7 @@ import languageIcon from '../pictures/header/lang_icon.svg';
 function HeaderComponent() {
     return (
         <>
-            <Navbar bg="dark" variant="dark" expand="lg" className='sticky-top'>
+            <Navbar bg="dark" variant="dark" expand="lg" className="sticky-top">
                 <Container>
                     <Navbar.Brand>
                         <img
@@ -55,13 +55,13 @@ function HeaderComponent() {
                         <Link to="/contact" className="nav-link"> Contacts </Link >
                     </Nav>
                     <Nav>
-                    <img
-                                    src={languageIcon}
-                                    width="23"
-                                    height="23"
-                                    className="d-inline-block mt-2"
-                                    alt="map"
-                                />{' '}
+                        <img
+                            src={languageIcon}
+                            width="23"
+                            height="23"
+                            className="d-inline-block mt-2"
+                            alt="map"
+                        />{' '}
                         <NavDropdown
                             id="nav-language"
                             title="Languages"
@@ -98,7 +98,7 @@ function HeaderComponent() {
                                 Русский
                             </NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link target='_blank' href="https://www.google.com/maps/place/RKS+Ltd/@59.3713457,28.1744889,17z/data=!3m1!4b1!4m6!3m5!1s0x469448178ef7e6cb:0xffb466f8bbf8f5a!8m2!3d59.3713457!4d28.1744889!16s%2Fg%2F1v7px3z6?hl=EN">
+                        <Nav.Link target="_blank" href="https://www.google.com/maps/place/RKS+Ltd/@59.3713457,28.1744889,17z/data=!3m1!4b1!4m6!3m5!1s0x469448178ef7e6cb:0xffb466f8bbf8f5a!8m2!3d59.3713457!4d28.1744889!16s%2Fg%2F1v7px3z6?hl=EN">
                             <img
                                 src={map_icon}
                                 width="25"

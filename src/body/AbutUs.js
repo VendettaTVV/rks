@@ -1,4 +1,4 @@
-import Container from "react-bootstrap/esm/Container";
+import Container from 'react-bootstrap/esm/Container';
 import certificat1 from '../pictures/about-us/certificat1.jpg';
 import certificat2 from '../pictures/about-us/certificat2.jpg';
 import certificat3 from '../pictures/about-us/certificat3.jpg';
@@ -22,28 +22,28 @@ import partn15 from '../pictures/about-us/partn15.png';
 
 function InfoComponent() {
     return (
-        <Container className='bg-white mt-0 mb-0'>
+        <Container className="bg-white mt-0 mb-0">
             <Container className="mt-0 pt-5 d-flex justify-content-around">
                 <img
                     src={certificat1}
                     width="200"
                     height="200"
-                    className='img-thumbnail'
-                    alt='Certificat1'
+                    className="img-thumbnail"
+                    alt="Certificat1"
                 />
                 <img
                     src={certificat2}
                     width="200"
                     height="200"
-                    className='img-thumbnail'
-                    alt='Certificat1'
+                    className="img-thumbnail"
+                    alt="Certificat1"
                 />
                 <img
                     src={certificat3}
                     width="200"
                     height="200"
-                    className='img-thumbnail'
-                    alt='Certificat1'
+                    className="img-thumbnail"
+                    alt="Certificat1"
                 />
             </Container>
 
@@ -65,43 +65,43 @@ function InfoComponent() {
                     src={partn1}
                     width="150"
                     height="150"
-                    className='img-thumbnail'
-                    alt='Certificat1'
+                    className="img-thumbnail"
+                    alt="Certificat1"
                 />
                 <img
                     src={partn2}
                     width="150"
                     height="150"
-                    className='img-thumbnail'
-                    alt='Certificat2'
+                    className="img-thumbnail"
+                    alt="Certificat2"
                 />
                 <img
                     src={partn3}
                     width="150"
                     height="150"
-                    className='img-thumbnail'
-                    alt='Certificat3'
+                    className="img-thumbnail"
+                    alt="Certificat3"
                 />
                 <img
                     src={partn4}
                     width="150"
                     height="150"
-                    className='img-thumbnail'
-                    alt='Certificat4'
+                    className="img-thumbnail"
+                    alt="Certificat4"
                 />
                 <img
                     src={partn5}
                     width="150"
                     height="150"
-                    className='img-thumbnail'
-                    alt='Certificat5'
+                    className="img-thumbnail"
+                    alt="Certificat5"
                 />
                 <img
                     src={partn6}
                     width="150"
                     height="150"
-                    className='img-thumbnail'
-                    alt='Certificat6'
+                    className="img-thumbnail"
+                    alt="Certificat6"
                 />
             </Container>
             <Container className="mt-0 pt-3 d-flex justify-content-around flex-wrap">
@@ -109,43 +109,43 @@ function InfoComponent() {
                     src={partn7}
                     width="130"
                     height="130"
-                    className='img-thumbnail'
-                    alt='Certificat7'
+                    className="img-thumbnail"
+                    alt="Certificat7"
                 />
                 <img
                     src={partn8}
                     width="130"
                     height="130"
-                    className='img-thumbnail'
-                    alt='Certificat8'
+                    className="img-thumbnail"
+                    alt="Certificat8"
                 />
                 <img
                     src={partn9}
                     width="130"
                     height="130"
-                    className='img-thumbnail'
-                    alt='Certificat9'
+                    className="img-thumbnail"
+                    alt="Certificat9"
                 />
                 <img
                     src={partn10}
                     width="130"
                     height="130"
-                    className='img-thumbnail'
-                    alt='Certificat10'
+                    className="img-thumbnail"
+                    alt="Certificat10"
                 />
                 <img
                     src={partn11}
                     width="130"
                     height="130"
-                    className='img-thumbnail'
-                    alt='Certificat11'
+                    className="img-thumbnail"
+                    alt="Certificat11"
                 />
                 <img
                     src={partn12}
                     width="130"
                     height="130"
-                    className='img-thumbnail'
-                    alt='Certificat12'
+                    className="img-thumbnail"
+                    alt="Certificat12"
                 />
             </Container>
             <Container className="mt-0 pt-3 pb-5 d-flex justify-content-around flex-wrap">
@@ -153,22 +153,22 @@ function InfoComponent() {
                     src={partn13}
                     width="130"
                     height="130"
-                    className='img-thumbnail'
-                    alt='Certificat13'
+                    className="img-thumbnail"
+                    alt="Certificat13"
                 />
                 <img
                     src={partn14}
                     width="130"
                     height="130"
-                    className='img-thumbnail'
-                    alt='Certificat14'
+                    className="img-thumbnail"
+                    alt="Certificat14"
                 />
                 <img
                     src={partn15}
                     width="130"
                     height="130"
-                    className='img-thumbnail'
-                    alt='Certificat15'
+                    className="img-thumbnail"
+                    alt="Certificat15"
                 />
             </Container>
         </Container>

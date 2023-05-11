@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
-export const FeatureTitle = styled.h2`
+export const ServiceTitle = styled.h2`
 	text-align: center;
 	font-size: clamp(1.3rem, 13vw, 3.1rem);
 	line-height: 1.06;
@@ -9,13 +9,13 @@ export const FeatureTitle = styled.h2`
 	margin: auto;
 `;
 
-export const FeatureTextWrapper = styled.div`
+export const ServiceTextWrapper = styled.div`
 	position: relative;
 	padding: 0 0 20px;
 	margin-bottom: 4rem;
 `;
 
-export const FeatureWrapper = styled.div`
+export const ServiceWrapper = styled.div`
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	margin-top: 4rem;
@@ -29,7 +29,7 @@ export const FeatureWrapper = styled.div`
 	}
 `;
 
-export const FeatureColumn = styled(motion.div)`
+export const ServiceColumn = styled(motion.div)`
 	display: flex;
 	flex-flow: column;
 	justify-content: center;
@@ -40,13 +40,13 @@ export const FeatureColumn = styled(motion.div)`
 	border-radius: 20px;
 `;
 
-export const FeatureImageWrapper = styled.div`
+export const ServiceImageWrapper = styled.div`
 	margin-bottom: 1rem;
 	border-radius: 50%;
 	border: 2px solid #000;
 	padding: 30px;
 `;
-export const FeatureName = styled.h3`
+export const ServiceName = styled.h3`
 	font-weight: 600;
 	font-size: 1.3rem;
 	letter-spacing: 2px;
@@ -56,7 +56,7 @@ export const FeatureName = styled.h3`
 		letter-spacing: 1.3px;
 	}
 `;
-export const FeatureText = styled.p`
+export const ServiceText = styled.p`
 	margin: 1rem 0 auto;
 	text-align: center;
 	font-size: 0.9rem;
