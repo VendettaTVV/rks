@@ -1,6 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-import logorksLight from '../pictures/c-circle-w.svg';
+import logorksLight from '../pictures/footer/c-circle-w.svg';
 
 function FooterComponent() {
     return (

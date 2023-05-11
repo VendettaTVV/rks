@@ -49,21 +49,21 @@ export const featuresData = [
 		icon: iconStyle(GiCarDoor),
 		imgClass: 'six',
 	},
-    {
+	{
 		name: 'Welding',
 		description:
 			'Welding works of any complexity ',
 		icon: iconStyle(GiFastArrow),
 		imgClass: 'seven',
 	},
-    {
+	{
 		name: 'Restoration of body geometry',
 		description:
 			'Complete restoration of body geometry with the help of special professional equipment ',
 		icon: iconStyle(FaCarCrash),
 		imgClass: 'eight',
 	},
-    {
+	{
 		name: 'Tyre fitting',
 		description:
 			'Tire change and balancing ',

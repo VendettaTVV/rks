@@ -12,6 +12,7 @@
     "react-bootstrap": "^2.7.4",
     "react-compare-image": "^3.4.0",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.9",
     "react-icons": "^4.8.0",
     "react-is": "16.8",
     "react-router": "^6.11.1",

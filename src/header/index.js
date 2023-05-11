@@ -3,12 +3,12 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom';
-import logorks from '../pictures/download.svg';
-import map_icon from '../pictures/download1.svg';
-import ukFlag from '../pictures/language_icons/u_k_flag.ico';
-import estFlag from '../pictures/language_icons/estonia_flag.ico';
-import ruFlag from '../pictures/language_icons/flag.ico';
-import languageIcon from '../lang_icon.svg';
+import logorks from '../pictures/header/logo.svg';
+import map_icon from '../pictures/header/map1.svg';
+import ukFlag from '../pictures/header/language_icons/u_k_flag.ico';
+import estFlag from '../pictures/header/language_icons/estonia_flag.ico';
+import ruFlag from '../pictures/header/language_icons/flag.ico';
+import languageIcon from '../pictures/header/lang_icon.svg';
 
 
 function HeaderComponent() {
@@ -50,6 +50,7 @@ function HeaderComponent() {
 
                         </NavDropdown> */}
                         <Link to="/services" className="nav-link"> Services </Link >
+                        <Link to="/works" className="nav-link"> Our work </Link >
                         <Link to="/about" className="nav-link"> About us </Link >
                         <Link to="/contact" className="nav-link"> Contacts </Link >
                     </Nav>

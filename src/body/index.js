@@ -1,9 +1,9 @@
 
 import Carousel from 'react-bootstrap/Carousel';
 import Container from 'react-bootstrap/esm/Container';
-import carousel1 from '../pictures/carousel/carousel1.jpg';
-import carousel2 from '../pictures/carousel/carousel2.jpg';
-import carousel3 from '../pictures/carousel/carousel3.jpg';
+import carousel1 from '../pictures/body_carousel/carousel1.jpg';
+import carousel2 from '../pictures/body_carousel/carousel2.jpg';
+import carousel3 from '../pictures/body_carousel/carousel3.jpg';
 
 
 
