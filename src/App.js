@@ -1,12 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
-import HeaderComponent from './header';
-import BodyComponent from './body';
-import FooterComponent from './footer';
+import HeaderComponent from './English_variant/header';
+import BodyComponent from './English_variant/body';
+import FooterComponent from './English_variant/footer';
 import { Route, Routes } from 'react-router-dom';
-import ContactComponent from './body/Contact.js';
-import WorkComponent from './body/Works';
-import InfoComponent from './body/AbutUs';
-import ServiceComponent from './body/Services';
+import ContactComponent from './English_variant/body/Contact.js';
+import WorkComponent from './English_variant/body/Works';
+import InfoComponent from './English_variant/body/AbutUs';
+import ServiceComponent from './English_variant/body/Services';
 
 function App() {
   return (
