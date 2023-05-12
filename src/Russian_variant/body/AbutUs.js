@@ -1,26 +1,26 @@
 import Container from 'react-bootstrap/esm/Container';
-import certificat1 from '../pictures/about-us/certificat1.jpg';
-import certificat2 from '../pictures/about-us/certificat2.jpg';
-import certificat3 from '../pictures/about-us/certificat3.jpg';
-import partn1 from '../pictures/about-us/partn1.jpg';
-import partn2 from '../pictures/about-us/partn2.png';
-import partn3 from '../pictures/about-us/partn3.png';
-import partn4 from '../pictures/about-us/partn4.png';
-import partn5 from '../pictures/about-us/partn5.png';
-import partn6 from '../pictures/about-us/partn6.png';
-import partn7 from '../pictures/about-us/partn7.png';
-import partn8 from '../pictures/about-us/partn8.png';
-import partn9 from '../pictures/about-us/partn9.png';
-import partn10 from '../pictures/about-us/partn10.png';
-import partn11 from '../pictures/about-us/partn11.png';
-import partn12 from '../pictures/about-us/partn12.png';
-import partn13 from '../pictures/about-us/partn13.png';
-import partn14 from '../pictures/about-us/partn14.png';
-import partn15 from '../pictures/about-us/partn15.png';
+import certificat1 from '../../pictures/about-us/certificat1.jpg';
+import certificat2 from '../../pictures/about-us/certificat2.jpg';
+import certificat3 from '../../pictures/about-us/certificat3.jpg';
+import partn1 from '../../pictures/about-us/partn1.jpg';
+import partn2 from '../../pictures/about-us/partn2.png';
+import partn3 from '../../pictures/about-us/partn3.png';
+import partn4 from '../../pictures/about-us/partn4.png';
+import partn5 from '../../pictures/about-us/partn5.png';
+import partn6 from '../../pictures/about-us/partn6.png';
+import partn7 from '../../pictures/about-us/partn7.png';
+import partn8 from '../../pictures/about-us/partn8.png';
+import partn9 from '../../pictures/about-us/partn9.png';
+import partn10 from '../../pictures/about-us/partn10.png';
+import partn11 from '../../pictures/about-us/partn11.png';
+import partn12 from '../../pictures/about-us/partn12.png';
+import partn13 from '../../pictures/about-us/partn13.png';
+import partn14 from '../../pictures/about-us/partn14.png';
+import partn15 from '../../pictures/about-us/partn15.png';
 
 
 
-function InfoComponent() {
+function RuInfoComponent() {
     return (
         <Container className="bg-white mt-0 mb-0">
             <Container className="mt-0 pt-5 d-flex justify-content-around">
@@ -47,19 +47,26 @@ function InfoComponent() {
                 />
             </Container>
 
-            <p className="text-start pt-5 fs-4 font-family-sans-serif mb-0"> RKS OÜ (RKS LLC) is an industrial company that began its financial and economic activity in 2001. The main activity of the company comprises
-                bodywork and automotive painting. We work with private customers, legal persons as well as all insurance companies. We offer a wide range of services,
-                from small repairs (scratches on a car’s bodywork ) to repair of a damaged car. The following services are available at our workshop: auto glass replacement,
-                bodywork, paintwork, towing services, air conditioner filling, repair of plastic parts, custom auto parts , welding, restoration of body geometry, tyre fitting.
-                To establish the costs of repairs, vehicle inspection by a professional is required, if necessary, our specialist will come to the location of emergency transport.
-                The main advantages of the services provided by RKS OÜ are high-quality work, individual customer approach as well as production and modern technology improvement.
-                Our staff is actively involved in related training courses as repair technology is constantly changing. We only work with quality materials. Our body shop is
-                equipped with the most modern equipment: a new paint booth and a stand for restoration of body geometry, resistance welding, welding on aluminum, repair of
-                plastic parts, auto glass replacements. RKS OÜ is a member of AMTEL (International Organisation for Manufacturers of Motor Vehicles; www.amtel.ee), which allows
-                us to share experiences with similar foreign companies and international organisations. For the convenience of our customers, there is a large guarded parking on
-                the premises of the workshop.
+            <p className="text-start pt-5 fs-4 font-family-sans-serif mb-0">
+                OÜ RKS – промышленное предприятие, которое начало свою финансово-хозяйственную деятельность в 2001 году.
+                Основной деятельностью предприятия являются кузовные работы и покраска автомобилей. Мы работаем как с
+                частными клиентами, юридическими лицами, так и со всеми страховыми компаниями. Мы предлагаем широкий
+                спектр услуг, начиная от мелкого ремонта (царапины на кузове) и заканчивая ремонтом аварийных
+                автомобилей. Следующие услуги доступны в нашей мастерской: замена стекол, кузовные и покрасочные
+                работы, услуги эвакуатора, заправка кондиционера, ремонт пластиковых деталей, заказ автозапчестей,
+                сварочные работы, восстановление геометрии кузова, шиномотаж. Для установления стоимости ремонта
+                необходим осмотр автомобиля мастером, при необходимости специалист может выехать к месту положения
+                аварийного транспорта. Основными преимуществами услуг фирмы OÜ RKS являются качественная работа,
+                индивидуальный подход к клиенту, совершенствование производства и современные технологии.
+                Наш персонал принимает активное участие в курсах повышения квалификации, так как технология
+                ремонта постоянно меняется. Мы работаем только с качественными материалами. Наш кузовной цех
+                оснащен самым современным оборудованием: новая покрасочная камера, стенд для восстановления
+                геометрии кузова, контактная сварка, сварка по алюминию, ремонт пластиковых деталей, замена стекол.
+                OÜ RKS входит в союз AMTEL (Международная организация производителей автотранспортных средств),
+                что позволяет нам обмениваться опытом с аналогичными зарубежными предприятиями и международными
+                организациями. Для удобства наших клиентов на территории мастерской имеется большая охраняемая парковка.
             </p>
-            <p className="fw-bolder pt-4 fs-4 font-family-sans-serif text-uppercase text-center">Our partners</p>
+            <p className="fw-bolder pt-4 fs-4 font-family-sans-serif text-uppercase text-center">Наши партнеры</p>
             <Container className="mt-0 pt-3 d-flex justify-content-around flex-wrap">
                 <img
                     src={partn1}
@@ -175,4 +182,4 @@ function InfoComponent() {
     )
 }
 
-export default InfoComponent;
+export default RuInfoComponent;

@@ -9,7 +9,7 @@ import compImg6 from '../../pictures/our-work/Honda.jpg';
 import compImg7 from '../../pictures/our-work/Mitsubishi.jpg';
 
 
-function WorkComponent() {
+function UkWorkComponent() {
     return (
         <>
             <p className="text-center fw-bolder mb-0 pt-5 fs-1 font-family-sans-serif bg-white container">A few examples of our work</p>
@@ -54,4 +54,4 @@ function WorkComponent() {
     )
 }
 
-export default WorkComponent;
+export default UkWorkComponent;

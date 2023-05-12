@@ -11,7 +11,7 @@ import phoneIcon from '../../pictures/contacts/phone_icon.png';
 import phoneCallIcon from '../../pictures/contacts/phone-call.svg';
 
 
-function ContactComponent() {
+function UkContactComponent() {
 
     const {
         register,
@@ -177,4 +177,4 @@ function ContactComponent() {
     )
 }
 
-export default ContactComponent;
+export default UkContactComponent;

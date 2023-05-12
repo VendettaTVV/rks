@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Section } from '../../GlobalStyle';
+import { Container, Section } from '../../../GlobalStyle';
 import {
 	ServiceText,
 	ServiceTitle,
@@ -11,7 +11,7 @@ import {
 } from './ServicesStyle';
 import { serviceData } from './ServiceData';
 
-const ServiceComponent = () => {
+const RuServiceComponent = () => {
 	const initial = {
 		y: 40,
 		opacity: 0,
@@ -25,7 +25,7 @@ const ServiceComponent = () => {
 		<Section smPadding="50px 10px" position="relative" inverse id="services">
 			<Container>
 				<ServiceTextWrapper>
-					<ServiceTitle>Our Services</ServiceTitle>
+					<ServiceTitle>Наши сервисы</ServiceTitle>
 				</ServiceTextWrapper>
 				<ServiceWrapper>
 					{serviceData.map((el, index) => (
@@ -48,4 +48,4 @@ const ServiceComponent = () => {
 	);
 };
 
-export default ServiceComponent;
+export default RuServiceComponent;

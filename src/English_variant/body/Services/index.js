@@ -11,7 +11,7 @@ import {
 } from './ServicesStyle';
 import { serviceData } from './ServiceData';
 
-const ServiceComponent = () => {
+const UkServiceComponent = () => {
 	const initial = {
 		y: 40,
 		opacity: 0,
@@ -48,4 +48,4 @@ const ServiceComponent = () => {
 	);
 };
 
-export default ServiceComponent;
+export default UkServiceComponent;

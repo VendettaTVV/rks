@@ -50,6 +50,7 @@ export const ServiceName = styled.h3`
 	font-weight: 600;
 	font-size: 1.3rem;
 	letter-spacing: 2px;
+	text-align: center;
 	@media screen and (max-width: 768px) {
 		font-weight: 400;
 		font-size: 1rem;

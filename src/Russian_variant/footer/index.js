@@ -1,8 +1,8 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-import logorksLight from '../pictures/footer/c-circle-w.svg';
+import logorksLight from '../../pictures/footer/c-circle-w.svg';
 
-function FooterComponent() {
+function RuFooterComponent() {
     return (
         <>
             <Navbar bg="dark" variant="dark" expand="lg" className="mt-0 pt-3">
@@ -17,9 +17,9 @@ function FooterComponent() {
                         />{' '}
                         RKS OÜ
                     </Navbar.Brand>
-                    <Navbar.Text className="fw-bolder">Address: <br /> Paemurru 1<br /> 20205, Narva </Navbar.Text>
-                    <Navbar.Text className="fw-bolder">Contact: <br /> Phone: +372 502 6143<br /> E-mail: info@rksauto.ee </Navbar.Text>
-                    <Navbar.Text className="fw-bolder">We are open: <br /> M-F. 9 - 19 <br /> Sat. 9 - 12 <br /> Sun. Day off  </Navbar.Text>
+                    <Navbar.Text className="fw-bolder">Адрес: <br /> Paemurru 1<br /> 20205, Narva </Navbar.Text>
+                    <Navbar.Text className="fw-bolder">Контакты: <br /> Телефон: +372 502 6143<br /> Э-почта: info@rksauto.ee </Navbar.Text>
+                    <Navbar.Text className="fw-bolder">Мы открыты: <br /> Пн-Пт. 9 - 19 <br /> Суб. 9 - 12 </Navbar.Text>
                 </Container>
             </Navbar>
 
@@ -29,4 +29,4 @@ function FooterComponent() {
     )
 }
 
-export default FooterComponent;
+export default RuFooterComponent;

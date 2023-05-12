@@ -20,7 +20,7 @@ import partn15 from '../../pictures/about-us/partn15.png';
 
 
 
-function InfoComponent() {
+function UkInfoComponent() {
     return (
         <Container className="bg-white mt-0 mb-0">
             <Container className="mt-0 pt-5 d-flex justify-content-around">
@@ -175,4 +175,4 @@ function InfoComponent() {
     )
 }
 
-export default InfoComponent;
+export default UkInfoComponent;

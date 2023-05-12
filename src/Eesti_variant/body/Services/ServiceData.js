@@ -13,60 +13,56 @@ const iconStyle = (Icon) => <Icon size="3rem" color="#0f0f0f" />;
 
 export const serviceData = [
 	{
-		name: "Bodywork",
-		description: "Bodywork consists of all of the steps required to repair a damaged panel up to the paint prep stage",
+		name: "Auto keretööd",
+		description: "Kere koosneb kõigist kahjustatud paneeli parandamiseks vajalikest sammudest kuni värvi ettevalmistamise etapini",
 		icon: iconStyle(FaCarAlt),
 		imgClass: "one",
 	},
 	{
-		name: "Paintwork",
+		name: "Värvimistööd",
 		description: "Full or partial painting of elements in a special box",
 		icon: iconStyle(GiLargePaintBrush),
 		imgClass: "two",
 	},
 	{
-		name: "Towing services",
-		description: "We will tow your car from anywhere",
+		name: "Pukseerimisteenused",
+		description: "Pukseerime teie auto kõikjalt",
 		icon: iconStyle(TbCarCrane),
 		imgClass: "three",
 	},
 	{
-		name: "Air conditioner",
-		description: "Specialists will restore the air conditioner to working capacity or perform its refueling on special professional equipment",
+		name: "Konditsioneeride täitmine",
+		description: "Spetsialistid taastavad konditsioneeri töövõime või teostavad selle tankimise spetsiaalsel professionaalsel seadmel",
 		icon: iconStyle(SiPicardsurgeles),
 		imgClass: "four",
 	},
 	{
-		name: "Repair of plastic parts",
-		description: "Repair of plastic car parts",
+		name: "Plastikdetailide parandus",
+		description: "Plastikust autoosade remont",
 		icon: iconStyle(AiOutlineMergeCells),
 		imgClass: "five",
 	},
 	{
-		name: "Custom auto parts",
-		description:
-			"Selection and ordering of automotive auto parts ",
+		name: "Autovaruosade tellimine",
+		description:"Autoosade valik ja tellimine",
 		icon: iconStyle(GiCarDoor),
 		imgClass: "six",
 	},
 	{
-		name: "Welding",
-		description:
-			"Welding works of any complexity ",
+		name: "Keevitustööd",
+		description:"Igasuguse keerukusega keevitustööd",
 		icon: iconStyle(GiFastArrow),
 		imgClass: "seven",
 	},
 	{
-		name: "Restoration of body geometry",
-		description:
-			"Complete restoration of body geometry with the help of special professional equipment ",
+		name: "Kere geomeetria taastamine",
+		description:"Kere geomeetria täielik taastamine spetsiaalse professionaalse varustuse abil",
 		icon: iconStyle(FaCarCrash),
 		imgClass: "eight",
 	},
 	{
-		name: "Tyre fitting",
-		description:
-			"Tire change and balancing ",
+		name: "Rehvivahetus",
+		description:"Rehvivahetus ja tasakaalustamine",
 		icon: iconStyle(GiCartwheel),
 		imgClass: "nine",
 	},

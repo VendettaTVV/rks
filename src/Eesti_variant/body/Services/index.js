@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Section } from '../../GlobalStyle';
+import { Container, Section } from '../../../GlobalStyle';
 import {
 	ServiceText,
 	ServiceTitle,
@@ -25,7 +25,7 @@ const ServiceComponent = () => {
 		<Section smPadding="50px 10px" position="relative" inverse id="services">
 			<Container>
 				<ServiceTextWrapper>
-					<ServiceTitle>Our Services</ServiceTitle>
+					<ServiceTitle>Meie teenused</ServiceTitle>
 				</ServiceTextWrapper>
 				<ServiceWrapper>
 					{serviceData.map((el, index) => (

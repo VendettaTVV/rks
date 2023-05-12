@@ -9,7 +9,7 @@ import carousel3 from '../../pictures/body_carousel/carousel3.jpg';
 
 
 
-function BodyComponent() {
+function UkBodyComponent() {
     return (
         <Container className="bg-white mt-0 mb-0">
             <p className="text-center fw-bolder pt-5 fs-1 font-family-sans-serif ">
@@ -49,4 +49,4 @@ function BodyComponent() {
 }
 
 
-export default BodyComponent;
+export default UkBodyComponent;
