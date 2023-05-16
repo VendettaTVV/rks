@@ -9,6 +9,7 @@ import timeIcon from '../../pictures/contacts/time_icon.png';
 import mailIcon from '../../pictures/contacts/mail_icon.png';
 import phoneIcon from '../../pictures/contacts/phone_icon.png';
 import phoneCallIcon from '../../pictures/contacts/phone-call.svg';
+import '../../Styles/contactStyle.scss';
 
 
 function UkContactComponent() {
@@ -25,8 +26,8 @@ function UkContactComponent() {
         <>
             <p className="text-center fw-bolder mb-0 pt-5 fs-1 font-family-sans-serif bg-white container">Contacts</p>
             <hr className="mx-auto w-50 mb-5 mt-5" />
-            <Container className=" d-flex justify-content-around flex-wrap mt-5">
-                <Container className="w-50 ms-0">
+            <Container className=" d-flex justify-content-around flex-wrap mt-5" id="contact">
+                <Container id="contact-body">
                     <ListGroup variant="flush" className=" m-0 ">
                         <ListGroup.Item className=" mb-3 mt-5 ">
                             <img
@@ -148,7 +149,7 @@ function UkContactComponent() {
                         </ListGroup.Item>
                     </ListGroup>
                 </Container>
-                <Container className="w-50 me-0 mb-5 mt-5">
+                <Container id="contact-body">
                     <Form className=" ms-0" onSubmit={handleSubmit(onSubmit)} >
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Group className="mb-3" controlId="formBasicPassword">

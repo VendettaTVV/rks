@@ -7,20 +7,21 @@ import compImg4 from '../../pictures/our-work/OpelAfter.jpg';
 import compImg5 from '../../pictures/our-work/Chaika.jpg';
 import compImg6 from '../../pictures/our-work/Honda.jpg';
 import compImg7 from '../../pictures/our-work/Mitsubishi.jpg';
+import '../../Styles/worksStyle.scss';
 
 
 function WorkComponent() {
     return (
         <>
             <p className="text-center fw-bolder mb-0 pt-5 fs-1 font-family-sans-serif bg-white container">Mõned näited meie tegemistest</p>
-            <Container className="bg-white mt-0 mb-0 d-flex justify-content-around flex-wrap">
-                <Container className=" w-50 m-0 mt-5 ">
+            <Container className=" mt-0 mb-0 d-flex justify-content-around flex-wrap" id="work">
+                <Container id="compare-image">
                     <ReactCompareImage
                         leftImage={compImg1}
                         rightImage={compImg2}
                     />
                 </Container>
-                <Container className=" w-50 m-0 mt-5">
+                <Container id="compare-image">
                     <ReactCompareImage
                         leftImage={compImg3}
                         rightImage={compImg4}

@@ -23,31 +23,32 @@ import partn15 from '../../pictures/about-us/partn15.png';
 function UkInfoComponent() {
     return (
         <Container className="bg-white mt-0 mb-0">
-            <Container className="mt-0 pt-5 d-flex justify-content-around">
+            <Container className="mt-0 pt-5 d-flex justify-content-around flex-wrap">
                 <img
                     src={certificat1}
                     width="200"
                     height="200"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat1"
                 />
                 <img
                     src={certificat2}
                     width="200"
                     height="200"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat1"
                 />
                 <img
                     src={certificat3}
                     width="200"
                     height="200"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat1"
                 />
             </Container>
 
-            <p className="text-start pt-5 fs-4 font-family-sans-serif mb-0"> RKS OÜ (RKS LLC) is an industrial company that began its financial and economic activity in 2001. The main activity of the company comprises
+            <p className="text-start pt-5 fs-4 font-family-sans-serif mb-0">
+                RKS OÜ (RKS LLC) is an industrial company that began its financial and economic activity in 2001. The main activity of the company comprises
                 bodywork and automotive painting. We work with private customers, legal persons as well as all insurance companies. We offer a wide range of services,
                 from small repairs (scratches on a car’s bodywork ) to repair of a damaged car. The following services are available at our workshop: auto glass replacement,
                 bodywork, paintwork, towing services, air conditioner filling, repair of plastic parts, custom auto parts , welding, restoration of body geometry, tyre fitting.
@@ -65,42 +66,42 @@ function UkInfoComponent() {
                     src={partn1}
                     width="150"
                     height="150"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat1"
                 />
                 <img
                     src={partn2}
                     width="150"
                     height="150"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat2"
                 />
                 <img
                     src={partn3}
                     width="150"
                     height="150"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat3"
                 />
                 <img
                     src={partn4}
                     width="150"
                     height="150"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat4"
                 />
                 <img
                     src={partn5}
                     width="150"
                     height="150"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat5"
                 />
                 <img
                     src={partn6}
                     width="150"
                     height="150"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat6"
                 />
             </Container>
@@ -109,42 +110,42 @@ function UkInfoComponent() {
                     src={partn7}
                     width="130"
                     height="130"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat7"
                 />
                 <img
                     src={partn8}
                     width="130"
                     height="130"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat8"
                 />
                 <img
                     src={partn9}
                     width="130"
                     height="130"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat9"
                 />
                 <img
                     src={partn10}
                     width="130"
                     height="130"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat10"
                 />
                 <img
                     src={partn11}
                     width="130"
                     height="130"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat11"
                 />
                 <img
                     src={partn12}
                     width="130"
                     height="130"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat12"
                 />
             </Container>
@@ -153,21 +154,21 @@ function UkInfoComponent() {
                     src={partn13}
                     width="130"
                     height="130"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat13"
                 />
                 <img
                     src={partn14}
                     width="130"
                     height="130"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat14"
                 />
                 <img
                     src={partn15}
                     width="130"
                     height="130"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat15"
                 />
             </Container>

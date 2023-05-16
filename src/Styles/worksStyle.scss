@@ -1,0 +1,33 @@
+#compare-image {
+    width: 50%;
+    padding: 5% 3% 4% 3%;
+    margin-top: 0;
+}
+
+;
+
+
+
+@media (max-width: 991px) {
+
+    #work {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+
+    ;
+
+    #compare-image {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    ;
+
+    .img-thumbnail {
+        width: 100%;
+    }
+}
+
+;

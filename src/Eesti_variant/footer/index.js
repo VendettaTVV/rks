@@ -1,12 +1,13 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import logorksLight from '../../pictures/footer/c-circle-w.svg';
+import '../../Styles/footerStyle.scss';
 
 function FooterComponent() {
     return (
         <>
             <Navbar bg="dark" variant="dark" expand="lg" className="mt-0 pt-3">
-                <Container>
+                <Container id="footer">
                     <Navbar.Brand className="fs-6">
                         <img
                             src={logorksLight}
@@ -19,12 +20,9 @@ function FooterComponent() {
                     </Navbar.Brand>
                     <Navbar.Text className="fw-bolder">Aadress: <br /> Paemurru 1<br /> 20205, Narva </Navbar.Text>
                     <Navbar.Text className="fw-bolder">Võta meiega ühendust: <br /> Phone: +372 502 6143<br /> E-mail: info@rksauto.ee </Navbar.Text>
-                    <Navbar.Text className="fw-bolder">Oleme avatud: <br /> E-R. 9 - 19 <br /> L. 9 - 12  </Navbar.Text>
+                    <Navbar.Text className="fw-bolder footer_dis">Oleme avatud: <br /> E-R. 9 - 19 <br /> L. 9 - 12  </Navbar.Text>
                 </Container>
             </Navbar>
-
-
-
         </>
     )
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Section } from '../../../GlobalStyle';
+import { Container, Section } from '../../../Styles/servicelStyle';
 import {
 	ServiceText,
 	ServiceTitle,

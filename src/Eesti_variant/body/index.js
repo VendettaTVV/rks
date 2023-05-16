@@ -39,11 +39,11 @@ function BodyComponent() {
                 </Carousel.Item>
             </Carousel>
             <p className="text-center pt-5 fs-2 font-family-sans-serif mb-0 pb-5">
-                Auto oskuslikku värvimist võib nimetada omaette kunstiks ja see nõuab meistri osavat kätt. 
-                Kere värvimistööd tähendavad tervet hulka operatsioone, mis on vajalikud, et esialgne tehasevärv 
-                adekvaatselt taastada, sealhulgas sellised kihid nagu krunt, täitevkiht, värv ja lakk. Meie ettevõte 
+                Auto oskuslikku värvimist võib nimetada omaette kunstiks ja see nõuab meistri osavat kätt.
+                Kere värvimistööd tähendavad tervet hulka operatsioone, mis on vajalikud, et esialgne tehasevärv
+                adekvaatselt taastada, sealhulgas sellised kihid nagu krunt, täitevkiht, värv ja lakk. Meie ettevõte
                 pakub igasuguse raskusastmega kereremonti, parimaid värvimaterjale, kontaktkeevitust, alumiiniumkeevitust,
-                 plastikdetailide parandamist, klaaside vahetamist, kiiret tööd ja kvaliteedigarantiid.
+                plastikdetailide parandamist, klaaside vahetamist, kiiret tööd ja kvaliteedigarantiid.
             </p>
         </Container>
     )

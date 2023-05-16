@@ -1,0 +1,29 @@
+@media (max-width: 600px) {
+
+    .footer_dis {
+        display: none;
+
+    }
+}
+
+;
+
+@media (max-width: 399px) {
+
+    .footer_dis {
+        display: flex;
+
+    }
+}
+
+;
+
+@media (max-width: 312px) {
+
+    #footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+;
