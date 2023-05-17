@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "./static/css/main.4e1b9f54.css",
+    "main.js": "./static/js/main.aa1f2d97.js",
+    "static/media/OpelBefore.jpg": "./static/media/OpelBefore.16106f52077959585627.jpg",
+    "static/media/OpelAfter.jpg": "./static/media/OpelAfter.5ff53e50a408748d2579.jpg",
+    "static/media/carousel2.jpg": "./static/media/carousel2.bd70297707ac6c7fd7fe.jpg",
+    "static/media/carousel1.jpg": "./static/media/carousel1.8821cf227f44e6a52672.jpg",
+    "static/media/Mitsubishi.jpg": "./static/media/Mitsubishi.5f6eccd044453cb7b788.jpg",
+    "static/media/carousel3.jpg": "./static/media/carousel3.2fd1d5377a7292147972.jpg",
+    "static/media/mail_icon.png": "./static/media/mail_icon.44e2d21847983d36df59.png",
+    "static/media/Chaika.jpg": "./static/media/Chaika.908813d96e5ca9bf8c25.jpg",
+    "static/media/Honda.jpg": "./static/media/Honda.19b3af3cbf87e3e248ab.jpg",
+    "static/media/VolgaAfter.jpg": "./static/media/VolgaAfter.952a11b6d7a6878b8bf1.jpg",
+    "static/media/time_icon.png": "./static/media/time_icon.db8227107872c6cecdb1.png",
+    "static/media/address_icon.png": "./static/media/address_icon.e5783030637ca9bb4f53.png",
+    "static/media/VolgaBefore.jpg": "./static/media/VolgaBefore.dd11454d64f5a3b62ac4.jpg",
+    "static/media/phone_icon.png": "./static/media/phone_icon.54b3f9a16a6efd3f33f0.png",
+    "static/media/estonia_flag.ico": "./static/media/estonia_flag.a501fd36418c46f63367.ico",
+    "static/media/flag.ico": "./static/media/flag.63bfbcb9af99ba5b6c0c.ico",
+    "static/media/u_k_flag.ico": "./static/media/u_k_flag.d66eb08c26f177aac486.ico",
+    "static/media/certificat3.jpg": "./static/media/certificat3.a4397fecb1de35360fff.jpg",
+    "static/media/certificat1.jpg": "./static/media/certificat1.d6feb5fb78cc2cfc242c.jpg",
+    "static/media/certificat2.jpg": "./static/media/certificat2.da49f1b28fed09c618b0.jpg",
+    "static/media/partn1.jpg": "./static/media/partn1.65fe8d1dfc26164d3a80.jpg",
+    "static/media/partn4.png": "./static/media/partn4.f17be9e96c55869c74e8.png",
+    "static/media/partn12.png": "./static/media/partn12.38e0d3c553104857b18f.png",
+    "static/media/partn6.png": "./static/media/partn6.73f4a860df8345d58974.png",
+    "static/media/partn13.png": "./static/media/partn13.e2325b8b95ab378e4cac.png",
+    "static/media/phone-call.svg": "./static/media/phone-call.74359848220089b80029b261bd64a121.svg",
+    "static/media/logo.svg": "./static/media/logo.89e1080db8429b27d0db380b65fadc2d.svg",
+    "static/media/map1.svg": "./static/media/map1.f75df9318219fe799f37a4f531e06895.svg",
+    "index.html": "./index.html",
+    "static/media/c-circle-w.svg": "./static/media/c-circle-w.46ad602e261d15f5e5e657dcc7f4f840.svg",
+    "static/media/burger_menu.svg": "./static/media/burger_menu.c56dcc41723f7f59523d1f57f13fe3a2.svg",
+    "main.4e1b9f54.css.map": "./static/css/main.4e1b9f54.css.map",
+    "main.aa1f2d97.js.map": "./static/js/main.aa1f2d97.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e1b9f54.css",
+    "static/js/main.aa1f2d97.js"
+  ]
+}
