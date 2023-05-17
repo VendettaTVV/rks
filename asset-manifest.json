@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rks/static/css/main.4e1b9f54.css",
-    "main.js": "/rks/static/js/main.75bd1ddc.js",
+    "main.css": "/rks/static/css/main.6c701e8b.css",
+    "main.js": "/rks/static/js/main.ef9dcf9a.js",
     "static/media/OpelBefore.jpg": "/rks/static/media/OpelBefore.16106f52077959585627.jpg",
     "static/media/OpelAfter.jpg": "/rks/static/media/OpelAfter.5ff53e50a408748d2579.jpg",
     "static/media/carousel2.jpg": "/rks/static/media/carousel2.bd70297707ac6c7fd7fe.jpg",
@@ -33,11 +33,11 @@
     "index.html": "/rks/index.html",
     "static/media/c-circle-w.svg": "/rks/static/media/c-circle-w.46ad602e261d15f5e5e657dcc7f4f840.svg",
     "static/media/burger_menu.svg": "/rks/static/media/burger_menu.c56dcc41723f7f59523d1f57f13fe3a2.svg",
-    "main.4e1b9f54.css.map": "/rks/static/css/main.4e1b9f54.css.map",
-    "main.75bd1ddc.js.map": "/rks/static/js/main.75bd1ddc.js.map"
+    "main.6c701e8b.css.map": "/rks/static/css/main.6c701e8b.css.map",
+    "main.ef9dcf9a.js.map": "/rks/static/js/main.ef9dcf9a.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e1b9f54.css",
-    "static/js/main.75bd1ddc.js"
+    "static/css/main.6c701e8b.css",
+    "static/js/main.ef9dcf9a.js"
   ]
 }
