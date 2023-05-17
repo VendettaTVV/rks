@@ -23,26 +23,26 @@ import partn15 from '../../pictures/about-us/partn15.png';
 function RuInfoComponent() {
     return (
         <Container className="bg-white mt-0 mb-0">
-            <Container className="mt-0 pt-5 d-flex justify-content-around">
+            <Container className="mt-0 pt-5 d-flex justify-content-around flex-wrap">
                 <img
                     src={certificat1}
                     width="200"
                     height="200"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat1"
                 />
                 <img
                     src={certificat2}
                     width="200"
                     height="200"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat1"
                 />
                 <img
                     src={certificat3}
                     width="200"
                     height="200"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat1"
                 />
             </Container>
@@ -72,42 +72,42 @@ function RuInfoComponent() {
                     src={partn1}
                     width="150"
                     height="150"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat1"
                 />
                 <img
                     src={partn2}
                     width="150"
                     height="150"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat2"
                 />
                 <img
                     src={partn3}
                     width="150"
                     height="150"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat3"
                 />
                 <img
                     src={partn4}
                     width="150"
                     height="150"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat4"
                 />
                 <img
                     src={partn5}
                     width="150"
                     height="150"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat5"
                 />
                 <img
                     src={partn6}
                     width="150"
                     height="150"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat6"
                 />
             </Container>
@@ -116,42 +116,42 @@ function RuInfoComponent() {
                     src={partn7}
                     width="130"
                     height="130"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat7"
                 />
                 <img
                     src={partn8}
                     width="130"
                     height="130"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat8"
                 />
                 <img
                     src={partn9}
                     width="130"
                     height="130"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat9"
                 />
                 <img
                     src={partn10}
                     width="130"
                     height="130"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat10"
                 />
                 <img
                     src={partn11}
                     width="130"
                     height="130"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat11"
                 />
                 <img
                     src={partn12}
                     width="130"
                     height="130"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat12"
                 />
             </Container>
@@ -160,21 +160,21 @@ function RuInfoComponent() {
                     src={partn13}
                     width="130"
                     height="130"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat13"
                 />
                 <img
                     src={partn14}
                     width="130"
                     height="130"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat14"
                 />
                 <img
                     src={partn15}
                     width="130"
                     height="130"
-                    className="img-thumbnail"
+                    className="rounded"
                     alt="Certificat15"
                 />
             </Container>
