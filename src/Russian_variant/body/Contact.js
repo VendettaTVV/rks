@@ -160,7 +160,7 @@ function RuContactComponent() {
                             <Form.Control type="email" placeholder="Введите э-почту"
                                 {...register("email", { required: true, pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i })} />
                             <Form.Text className="text-muted">
-                            Мы никогда не передадим вашу электронную почту кому-либо еще.
+                                Мы никогда не передадим вашу электронную почту кому-либо еще.
                             </Form.Text>
                             {errors.email && <span>Неверная э-почта</span>}
                         </Form.Group>

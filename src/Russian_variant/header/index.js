@@ -45,11 +45,11 @@ function RuHeaderComponent() {
                         />{' '}
                     </div>
                     < Nav className={`nav-elements  ${showNavbar && 'active'}`}>
-                        <Link to="/ru" className="nav-link " onClick={handleShowNavbar}> Главная </Link >
-                        <Link to="/services/ru" className="nav-link" onClick={handleShowNavbar}> Сервисы </Link >
-                        <Link to="/works/ru" className="nav-link" onClick={handleShowNavbar}> Наша работа </Link >
-                        <Link to="/about/ru" className="nav-link" onClick={handleShowNavbar}> О нас </Link >
-                        <Link to="/contact/ru" className="nav-link" onClick={handleShowNavbar}> Контакты </Link >
+                        <Link to="/rks/ru" className="nav-link " onClick={handleShowNavbar}> Главная </Link >
+                        <Link to="/rks/services/ru" className="nav-link" onClick={handleShowNavbar}> Сервисы </Link >
+                        <Link to="/rks/works/ru" className="nav-link" onClick={handleShowNavbar}> Наша работа </Link >
+                        <Link to="/rks/about/ru" className="nav-link" onClick={handleShowNavbar}> О нас </Link >
+                        <Link to="/rks/contact/ru" className="nav-link" onClick={handleShowNavbar}> Контакты </Link >
                         <Nav className="lang_header">
                             <Nav.Item className="pt-2">
                                 <img
@@ -71,7 +71,7 @@ function RuHeaderComponent() {
                                         height="23"
                                         alt="english"
                                     />{' '}
-                                    <Link to="/en" className="nav-link pt-0 text-white"> English </Link >
+                                    <Link to="/rks/en" className="nav-link pt-0 text-white"> English </Link >
                                 </NavDropdown.Item>
                                 <NavDropdown.Item className="d-flex">
                                     <img
@@ -80,7 +80,7 @@ function RuHeaderComponent() {
                                         height="23"
                                         alt="esti"
                                     />{' '}
-                                    <Link to="/" className="nav-link pt-0 text-white"> Eesti </Link >
+                                    <Link to="/rks/" className="nav-link pt-0 text-white"> Eesti </Link >
                                 </NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Link target="_blank" href="https://www.google.com/maps/place/RKS+Ltd/@59.3713457,28.1744889,17z/data=!3m1!4b1!4m6!3m5!1s0x469448178ef7e6cb:0xffb466f8bbf8f5a!8m2!3d59.3713457!4d28.1744889!16s%2Fg%2F1v7px3z6?hl=EN">

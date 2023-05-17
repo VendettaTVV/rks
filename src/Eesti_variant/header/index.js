@@ -45,11 +45,11 @@ function HeaderComponent() {
                         />{' '}
                     </div>
                     <Nav className={`nav-elements  ${showNavbar && 'active'}`}>
-                        <Link to="/" className="nav-link" onClick={handleShowNavbar}> Esileht </Link >
-                        <Link to="/services" className="nav-link" onClick={handleShowNavbar}> Teenused </Link >
-                        <Link to="/works" className="nav-link" onClick={handleShowNavbar}> Meie töö </Link >
-                        <Link to="/about" className="nav-link" onClick={handleShowNavbar}> Meist </Link >
-                        <Link to="/contact" className="nav-link" onClick={handleShowNavbar}> Kontaktid </Link >
+                        <Link to="/rks/" className="nav-link" onClick={handleShowNavbar}> Esileht </Link >
+                        <Link to="/rks/services" className="nav-link" onClick={handleShowNavbar}> Teenused </Link >
+                        <Link to="/rks/works" className="nav-link" onClick={handleShowNavbar}> Meie töö </Link >
+                        <Link to="/rks/about" className="nav-link" onClick={handleShowNavbar}> Meist </Link >
+                        <Link to="/rks/contact" className="nav-link" onClick={handleShowNavbar}> Kontaktid </Link >
 
                         <Nav className="lang_header">
                             <Nav.Item className="pt-2">
@@ -72,7 +72,7 @@ function HeaderComponent() {
                                         height="23"
                                         alt="map"
                                     />{' '}
-                                    <Link to="/en" className="nav-link pt-0 text-white"> English </Link >
+                                    <Link to="/rks/en" className="nav-link pt-0 text-white"> English </Link >
                                 </NavDropdown.Item>
                                 <NavDropdown.Item className="d-flex">
                                     <img
@@ -81,7 +81,7 @@ function HeaderComponent() {
                                         height="23"
                                         alt="map"
                                     />{' '}
-                                    <Link to="/ru" className="nav-link pt-0 text-white"> Русский </Link >
+                                    <Link to="/rks/ru" className="nav-link pt-0 text-white"> Русский </Link >
                                 </NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Link target="_blank" href="https://www.google.com/maps/place/RKS+Ltd/@59.3713457,28.1744889,17z/data=!3m1!4b1!4m6!3m5!1s0x469448178ef7e6cb:0xffb466f8bbf8f5a!8m2!3d59.3713457!4d28.1744889!16s%2Fg%2F1v7px3z6?hl=EN">

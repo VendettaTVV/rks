@@ -28,105 +28,105 @@ function App() {
     <>
 
       <Routes>
-        < Route path="/" element={
+        < Route path="/rks/" element={
           <>
             <HeaderComponent />
             <BodyComponent />
             <FooterComponent />
           </>
         } />
-        < Route path="/services" element={
+        < Route path="/rks/services" element={
           <>
             <HeaderComponent />
             <ServiceComponent />
             <FooterComponent />
           </>
         } />
-        < Route path="/works" element={
+        < Route path="/rks/works" element={
           <>
             <HeaderComponent />
             <WorkComponent />
             <FooterComponent />
           </>
         } />
-        < Route path="/about" element={
+        < Route path="/rks/about" element={
           <>
             <HeaderComponent />
             <InfoComponent />
             <FooterComponent />
           </>
         } />
-        < Route path="/contact" element={
+        < Route path="/rks/contact" element={
           <>
             <HeaderComponent />
             <ContactComponent />
             <FooterComponent />
           </>
         } />
-        < Route path="/en" element={
+        < Route path="/rks/en" element={
           <>
             <UkHeaderComponent />
             <UkBodyComponent />
             <UkFooterComponent />
           </>
         } />
-        < Route path="/services/en" element={
+        < Route path="/rks/services/en" element={
           <>
             <UkHeaderComponent />
             <UkServiceComponent />
             <UkFooterComponent />
           </>
         } />
-        < Route path="/works/en" element={
+        < Route path="/rks/works/en" element={
           <>
             <UkHeaderComponent />
             <UkWorkComponent />
             <UkFooterComponent />
           </>
         } />
-        < Route path="/about/en" element={
+        < Route path="/rks/about/en" element={
           <>
             <UkHeaderComponent />
             <UkInfoComponent />
             <UkFooterComponent />
           </>
         } />
-        < Route path="/contact/en" element={
+        < Route path="/rks/contact/en" element={
           <>
             <UkHeaderComponent />
             <UkContactComponent />
             <UkFooterComponent />
           </>
         } />
-        < Route path="/ru" element={
+        < Route path="/rks/ru" element={
           <>
             <RuHeaderComponent />
             <RuBodyComponent />
             <RuFooterComponent />
           </>
         } />
-        < Route path="/services/ru" element={
+        < Route path="/rks/services/ru" element={
           <>
             <RuHeaderComponent />
             <RuServiceComponent />
             <RuFooterComponent />
           </>
         } />
-        < Route path="/works/ru" element={
+        < Route path="/rks/works/ru" element={
           <>
             <RuHeaderComponent />
             <RuWorkComponent />
             <RuFooterComponent />
           </>
         } />
-        < Route path="/about/ru" element={
+        < Route path="/rks/about/ru" element={
           <>
             <RuHeaderComponent />
             <RuInfoComponent />
             <RuFooterComponent />
           </>
         } />
-        < Route path="/contact/ru" element={
+        < Route path="/rks/contact/ru" element={
           <>
             <RuHeaderComponent />
             <RuContactComponent />

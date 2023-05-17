@@ -8,6 +8,16 @@
 
 ;
 
+@media (max-width: 600px) {
+
+    .footer_dis_ru {
+        display: none;
+
+    }
+}
+
+;
+
 @media (max-width: 399px) {
 
     .footer_dis {
@@ -23,6 +33,34 @@
     #footer {
         display: flex;
         flex-direction: column;
+    }
+}
+
+;
+
+@media (max-width: 414px) {
+
+    #footer_ru {
+        display: flex;
+    
+    }
+}
+
+;
+@media (max-width: 325px) {
+
+    #footer_ru {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+;
+@media (max-width: 414px) {
+
+    .footer_dis_ru {
+        display: flex;
+
     }
 }
 
